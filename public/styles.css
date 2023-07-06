@@ -1,0 +1,155 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #fff;
+  font-family: 'Livvic', sans-serif;}
+
+.Head {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #93c6e7;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Livvic', sans-serif;
+  font-weight: 900;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 4rem;
+  color: #fb1b1b;
+}
+
+.inputDiv {
+  font-family: 'Livvic', sans-serif;
+  background-color: #93c6e7;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.inputDiv input {
+  font-family: 'Livvic', sans-serif;
+  width: 400px;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  outline: none;
+}
+
+.inputDiv button,
+.buttons button {
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 10px;
+  width: 150px;
+  margin-left: 50px;
+  border: none;
+  background-color: #ff8989;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: 'Livvic', sans-serif;
+}
+
+.inputDiv button:hover,
+.buttons button:hover {
+  color: #ff8989;
+  background-color: #fff;
+}
+
+.AppDetails {
+  font-family: 'Livvic', sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.outputDiv h1 {
+  font-family: 'Livvic', sans-serif;
+  color: #000;
+}
+
+.pokemonDetails {
+  font-family: 'Livvic', sans-serif;
+  margin: 25px;
+  padding: 25px 15px 25px 15px;
+  width: 250px;
+  height: 350px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  cursor: pointer;
+  background: #83a4d4;
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+  background: linear-gradient(to right, #b6fbff, #83a4d4);
+  transition: 0.2s;
+}
+
+.pokemonDetails:hover {
+  width: 300px;
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.pokemonDetails p {
+  font-family: 'Livvic', sans-serif;
+  margin: 15px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #28282B;
+  text-align: center;
+}
+
+.pokemonDetails img,
+.pokeDet img {
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.buttons {
+  font-family: 'Livvic', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.pokeDet {
+  font-family: 'Livvic', sans-serif;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 50px 0;
+  transition: 0.2s;
+  padding: 0;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.pokeDet h1 {
+  font-family: 'Livvic', sans-serif;
+  margin: 10px;
+  font-size: 25px;
+  color: #28282b;
+}
+
+.pokeDet p {
+  font-family: 'Livvic', sans-serif;
+  margin: 10px;
+  font-size: 20px;
+  color: #28282b;
+}
+
+.loading h1 {
+  font-size: 50px;
+  color: #28282B;
+}
